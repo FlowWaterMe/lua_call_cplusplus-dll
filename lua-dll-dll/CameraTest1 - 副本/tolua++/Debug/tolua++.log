@@ -1,0 +1,23 @@
+﻿生成启动时间为 2017/1/11 10:25:50。
+     1>项目“C:\Users\yangyang\Desktop\lua-dll-dll\CameraTest1\tolua++\tolua++.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\yangyang\Desktop\lua-dll-dll\CameraTest1\tolua++\\..\lua\lua-5.1.4\src" /I"C:\Users\yangyang\Desktop\lua-dll-dll\CameraTest1\tolua++\\tolua++-1.0.93\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "tolua++-1.0.93\src\lib\tolua_event.c" "tolua++-1.0.93\src\lib\tolua_is.c" "tolua++-1.0.93\src\lib\tolua_map.c" "tolua++-1.0.93\src\lib\tolua_push.c" "tolua++-1.0.93\src\lib\tolua_to.c"
+         tolua_to.c
+         tolua_push.c
+         tolua_map.c
+     1>c:\users\yangyang\desktop\lua-dll-dll\cameratest1\tolua++\tolua++-1.0.93\src\lib\tolua_map.c(398): warning C4090: “函数”: 不同的“const”限定符
+         tolua_is.c
+         tolua_event.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\yangyang\Desktop\lua-dll-dll\CameraTest1\Debug\tolua++.lib" /NOLOGO Debug\tolua_event.obj
+         Debug\tolua_is.obj
+         Debug\tolua_map.obj
+         Debug\tolua_push.obj
+         Debug\tolua_to.obj
+         tolua++.vcxproj -> C:\Users\yangyang\Desktop\lua-dll-dll\CameraTest1\Debug\tolua++.lib
+     1>已完成生成项目“C:\Users\yangyang\Desktop\lua-dll-dll\CameraTest1\tolua++\tolua++.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.64

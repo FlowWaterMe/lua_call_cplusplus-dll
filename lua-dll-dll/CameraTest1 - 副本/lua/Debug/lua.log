@@ -1,0 +1,79 @@
+﻿生成启动时间为 2017/1/11 10:25:50。
+     1>项目“C:\Users\yangyang\Desktop\lua-dll-dll\CameraTest1\lua\lua.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt -DLUA_USE_DLL "lua-5.1.4\src\lapi.c" "lua-5.1.4\src\lauxlib.c" "lua-5.1.4\src\lbaselib.c" "lua-5.1.4\src\lcode.c" "lua-5.1.4\src\ldblib.c" "lua-5.1.4\src\ldebug.c" "lua-5.1.4\src\ldo.c" "lua-5.1.4\src\ldump.c" "lua-5.1.4\src\lfunc.c" "lua-5.1.4\src\lgc.c" "lua-5.1.4\src\linit.c" "lua-5.1.4\src\liolib.c" "lua-5.1.4\src\llex.c" "lua-5.1.4\src\lmathlib.c" "lua-5.1.4\src\lmem.c" "lua-5.1.4\src\loadlib.c" "lua-5.1.4\src\lobject.c" "lua-5.1.4\src\lopcodes.c" "lua-5.1.4\src\loslib.c" "lua-5.1.4\src\lparser.c" "lua-5.1.4\src\lstate.c" "lua-5.1.4\src\lstring.c" "lua-5.1.4\src\lstrlib.c" "lua-5.1.4\src\ltable.c" "lua-5.1.4\src\ltablib.c" "lua-5.1.4\src\ltm.c" "lua-5.1.4\src\lua.c" "lua-5.1.4\src\luac.c" "lua-5.1.4\src\lundump.c" "lua-5.1.4\src\lvm.c" "lua-5.1.4\src\lzio.c" "lua-5.1.4\src\print.c"
+         print.c
+         lzio.c
+         lvm.c
+         lundump.c
+         luac.c
+         lua.c
+         ltm.c
+         ltablib.c
+         ltable.c
+         lstrlib.c
+         lstring.c
+         lstate.c
+         lparser.c
+         loslib.c
+         lopcodes.c
+         lobject.c
+         loadlib.c
+         lmem.c
+         lmathlib.c
+         llex.c
+         正在生成代码...
+         正在编译...
+         liolib.c
+         linit.c
+         lgc.c
+         lfunc.c
+         ldump.c
+         ldo.c
+         ldebug.c
+         ldblib.c
+         lcode.c
+         lbaselib.c
+         lauxlib.c
+         lapi.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\yangyang\Desktop\lua-dll-dll\CameraTest1\Debug\lua.lib" /NOLOGO Debug\lapi.obj
+         Debug\lauxlib.obj
+         Debug\lbaselib.obj
+         Debug\lcode.obj
+         Debug\ldblib.obj
+         Debug\ldebug.obj
+         Debug\ldo.obj
+         Debug\ldump.obj
+         Debug\lfunc.obj
+         Debug\lgc.obj
+         Debug\linit.obj
+         Debug\liolib.obj
+         Debug\llex.obj
+         Debug\lmathlib.obj
+         Debug\lmem.obj
+         Debug\loadlib.obj
+         Debug\lobject.obj
+         Debug\lopcodes.obj
+         Debug\loslib.obj
+         Debug\lparser.obj
+         Debug\lstate.obj
+         Debug\lstring.obj
+         Debug\lstrlib.obj
+         Debug\ltable.obj
+         Debug\ltablib.obj
+         Debug\ltm.obj
+         Debug\lua.obj
+         Debug\luac.obj
+         Debug\lundump.obj
+         Debug\lvm.obj
+         Debug\lzio.obj
+         Debug\print.obj
+     1>lua.obj : warning LNK4006: _main 已在 luac.obj 中定义；已忽略第二个定义
+         lua.vcxproj -> C:\Users\yangyang\Desktop\lua-dll-dll\CameraTest1\Debug\lua.lib
+     1>已完成生成项目“C:\Users\yangyang\Desktop\lua-dll-dll\CameraTest1\lua\lua.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.06

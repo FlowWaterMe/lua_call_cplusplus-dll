@@ -1,0 +1,45 @@
+﻿生成启动时间为 2017/3/12 12:13:39。
+     1>项目“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\CameraTest1\CameraTest1.vcxproj”在节点 2 上(Build 个目标)。
+       项目文件包含 ToolsVersion="12.0"。此工具集可能未知或缺失(您可以通过安装相应版本的 MSBuild 来解决该问题)，或者该生成因策略原因已被强制更改为特殊 ToolsVersion。将此项目视作具有 ToolsVersion="4.0"。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkId=291333。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\lua\lua-5.1.4\src" /I"C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\tolua++\tolua++-1.0.93\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CAMERATEST1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CameraTest1_function.cpp global_lua.cpp interface.cpp
+         interface.cpp
+         global_lua.cpp
+         CameraTest1_function.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\CameraTest1.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\CameraTest1.slnDebug" /LIBPATH:"C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\CameraTest1\..\Debug" lua.lib tolua++.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\CameraTest1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\CameraTest1.lib" /MACHINE:X86 /DLL Debug\CameraTest1_function.obj
+         Debug\global_lua.obj
+         Debug\interface.obj
+            正在创建库 C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\CameraTest1.lib 和对象 C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\CameraTest1.exp
+     1>lua.lib(lapi.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(lapi.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(lauxlib.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(lauxlib.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(lcode.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(lcode.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(ldebug.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(ldebug.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(ldo.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(ldo.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(ldump.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(ldump.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(lfunc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(lfunc.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(lgc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(lgc.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(llex.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(llex.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(lmem.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(lmem.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(lobject.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(lobject.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(lopcodes.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(lopcodes.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(lparser.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(lparser.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(lstate.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(lstate.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(lstring.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(lstring.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(ltable.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(ltable.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(ltm.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(ltm.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(lundump.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(lundump.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(lvm.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(lvm.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lua.lib(lzio.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lua.lib(lzio.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>tolua++.lib(tolua_event.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“tolua++.lib(tolua_event.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>tolua++.lib(tolua_is.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“tolua++.lib(tolua_is.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>tolua++.lib(tolua_map.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“tolua++.lib(tolua_map.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>tolua++.lib(tolua_push.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“tolua++.lib(tolua_push.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>tolua++.lib(tolua_to.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“tolua++.lib(tolua_to.obj)”或在“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         CameraTest1.vcxproj -> C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\Debug\CameraTest1.dll
+     1>已完成生成项目“C:\Users\Young_liu\Desktop\dllexample\project\lua-dll-dll\CameraTest1\CameraTest1\CameraTest1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.03
